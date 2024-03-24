@@ -1,0 +1,145 @@
+{
+  "h1": "A simple example",
+  "change-locale": "Change locale to",
+  "to-second-page": "To second page",
+  "error-with-status": "A {{statusCode}} error occurred on server",
+  "error-without-status": "An error occurred on the server",
+  "title": "Home | next-i18next",
+  "read-more": "Read More",
+  "contact-me": "Contact me",
+  "blog": {
+    "appDir": {
+      "question": "Are you using the new Next.js 13/14 app directory?",
+      "answer": "Then check out <1>this blog post</1>.",
+      "link": "https://locize.com/blog/next-app-dir-i18n/"
+    },
+    "optimized": {
+      "question": "Do you like to unleash some super powers to have all side optimized translations?",
+      "answer": "Then you may have a look at <1>this blog post</1>.",
+      "link": "https://locize.com/blog/next-i18next/"
+    },
+    "ssg": {
+      "question": "Do you want to use SSG (next export)?",
+      "answer": "Then you may have a look at <1>this blog post</1>.",
+      "link": "https://locize.com/blog/next-i18n-static/"
+    }
+  },
+  "header": {
+    "opening": "Opening Time: 8:30 AM - 9:30 PM",
+    "location": "Our Location",
+    "apply-now": "Apply Now",
+    "menu": {
+      "home": "Home",
+      "services": "Services",
+      "about": "about",
+      "blogs": "Blogs",
+      "contact": "Contact"
+    },
+    "contact": "Contact Us",
+    "language": "Language"
+  },
+  "home": {
+    "top-info": {
+      "online-visa": "Online Visa Application",
+      "visa-info": "Visa Information",
+      "Immigration-Resources": "Immigration Resources",
+      "Online-Passport": "Online Passport Application"
+    },
+    
+    "service": {
+      "feature-service": "FEATURED SERVICES",
+      "title-home": "We Provide Visa & Immigration Service \n From Experienced Lawyers",
+      "service1": {
+        "title": "E-VISA",
+        "content": "Electronic visa (E-visa) is one of the types of visas issued by the Vietnam Immigration Department to foreigners via an electronic system. Vietnam electronic visa is valid for a maximum of 90 days, single or multiple entries.        "
+      },
+      "service2": {
+        "title": "Vietnam visa",
+        "content": "A Vietnam visa is a type of travel document issued by a competent Vietnamese authority, allowing travel and entry into Vietnam."
+      },
+      "service3": {
+        "title": "Temporary residence card (trc)",
+        "content": "Temporary residence card is a document issued by the Immigration Department to foreigners who are allowed to reside in Vietnam for a limited period of time (2 - 5 years) and is valid instead of a visa."
+      },
+      "service4": {
+        "title": "Work permit in vietnam",
+        "content": "Vietnam work permit is issued by the Provincial Department of Labor, War Invalids and Social Affairs or the Department of Employment, allowing foreign workers to work legally in Vietnam. Vietnam work permit has a maximum validity of 2 years."
+      },
+      "service5": {
+        "title": "Document legalization",
+        "content": "Is a phrase that means making documents issued in Vietnam legally valid for use abroad (For example, Vietnamese Birth Certificate used in the UAE) and making for foreign documents that are legally valid for use in Vietnam (For example, UK Business Registration Certificate for use in Vietnam). This process often includes different steps at state agencies, diplomatic agencies, consulates, and embassies."
+      },
+      "service6": {
+        "title": "Consular attestation",
+        "content": " Equivalent to legalizing documents by making documents issued in one country legally valid for use in another country. (Example of Austrian Master's Degree certification for use in Taiwan)"
+      },
+      "service7": {
+        "title": "Apostille",
+        "content": "Is a phrase used only for countries that are members of the Hague convention and are exempt from embassy legalization in the country where the document will be used, but it still needs to be certified by a diplomatic agency before the document is used. (Example: APOSTILLE French Degree, University Transcript used to study abroad in South Korea)"
+      },
+      "service8": {
+        "title": "Visa to other countries",
+        "content": "The highlight is that we have experience in providing services and consulting for countries that do not have embassies in Vietnam such as Nicaragua, Guatemala Tunisia, Montenegro, Serbia, El Salvador, Democratic Republic of the Congo. \n And countries that are difficult to get visas like the US, Mexico, Dominican Republic Dominica...Visas to visit relatives and work abroad are a common practice today. Visa, passport and other prerequisites are required in all areas of business. Nowadays, people travel around the world for work exchange, sightseeing, higher studies or any other purpose."
+      }
+    },
+    "why-us": {
+      "title": "WHY CHOOSE US?",
+      "experienced-consultant": "Experienced consultant",
+      "high-quality": "High quality assurance",
+      "cost": "Competitive costs",
+      "take-reputation": "Take reputation first"
+    },
+    "about": {
+      "title": "Years of Your Trust and Recommendation",
+      "sub-title": "5+ Years of Your Trust and Recommendation",
+      "sumary": "Vietnam Consulting Co., Ltd. (VNC) was founded by a group of professional consultants with 5 to 10 years of experience and is known as a reliable destination in the areas of Visa and Work Permits. , Visit/business visas and Consular legalization, Consular certification, Apostille."
+    },
+    "statistic": {
+      "statistic1": "Happy Clients & Students",
+      "statistic2": "Visa & Immigration",
+      "statistic3": "Countries Affiliation",
+      "statistic4": "Top University Partner"
+
+    },
+    "blog": {
+      "reccent-blog": "Recent Blog",
+      "title": "Recent Updates of Visa And Related Information",
+      "summary": "We have helps students business persons tourists clients with medical needs to acquire global visas. Besides we also help with other family and provide counseeling services for immegration"
+    },
+    "promo": "Let Our Experience Be Your Guide."
+  },
+  "footer": {
+    "sumary": "Our consulting services put our clients' interests first by ensuring accuracy, integrity, efficiency built on our reputation at a reasonable cost."
+  },
+  "about-page": {
+    "title": "ABOUT US",
+    "content": "Vietnam Consulting Co., Ltd. (VNC) was founded by a group of professional consultants with 5 to 10 years of experience and is known as a reliable destination in the areas of Visa and Work Permits. Visit/business visas and Consular legalization, Consular certification, Apostille.\n Our consulting services put our clients' interests first by ensuring accuracy, integrity, efficiency built on our reputation at a reasonable cost. With the motto of putting customers first and reputation first, our well-trained and experienced staff is committed to providing the most effective services."
+  },
+  "contact-page": {
+    "title": "CONTACT US",
+    "contact-detail": "No. 497 Thuy Khue, Buoi Ward, Tay Ho District, Hanoi, Vietnam",
+    "address": "Address",
+    "work-permit": {
+      "title": "Work permit, Visa, Vietnam temporary residence card",
+      "name": "Ms. Kate Nguyen",
+      "phone": " (+84) 0886599566",
+      "Email": "Katenguyenvnc@gmail.com"
+    },
+    "tourist-visa": {
+      "title": "Tourist visa, business visit",
+      "name": "Ms. Alice Nguyen",
+      "phone": "(+84) 0862371913",
+      "Email": "Alicenguyenvnc@gmail.com"
+    },
+    "consular-legalization": {
+      "title": "Consular legalization/APOSTILLE",
+      "name": "Ms. Julie Pham",
+      "phone": "(+84) 0346846362",
+      "Email": "Juliephamvnc@gmail.com"
+    },
+    "working-hour": "Monday to Friday: 8:00 am – 5:00 pm",
+    "saturday": "8:30 am – 4.00 pm",
+    "sunday": "Closed"
+
+  }
+}

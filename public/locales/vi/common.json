@@ -1,0 +1,145 @@
+{
+  "h1": "Ein einfaches Beispiel",
+  "change-locale": "Sprache wechseln zu \"{{changeTo}}\"",
+  "to-second-page": "Zur zweiten Seite",
+  "error-with-status": "Auf dem Server ist ein Fehler ({{statusCode}}) aufgetreten",
+  "error-without-status": "Auf dem Server ist ein Fehler aufgetreten",
+  "title": "Hauptseite | next-i18next",
+  "read-more": "Xem thêm",
+  "contact-me": "Liên hệ chúng tôi",
+  "blog": {
+    "appDir": {
+      "question": "Verwendest du das neue Next.js 13/14 mit app directory?",
+      "answer": "Dann schau dir <1>diesen Blogbeitrag</1> an.",
+      "link": "https://locize.com/blog/next-app-dir-i18n/"
+    },
+    "optimized": {
+      "question": "Möchtest du einige Superkräfte entfesseln, um für alle Seiten optimierte Übersetzungen zu haben?",
+      "answer": "Dann schaue dir vielleicht <1>diesen Blogbeitrag</1> an.",
+      "link": "https://locize.com/blog/next-i18next-de/"
+    },
+    "ssg": {
+      "question": "Möchtest du SSG (next export) verwenden?",
+      "answer": "Dann schaue dir vielleicht <1>diesen Blogbeitrag</1> an.",
+      "link": "https://locize.com/blog/next-i18n-statisch/"
+    }
+  },
+  "header": {
+    "opening": "Thời gian mở cửa: 8:30 AM - 9:30 PM",
+    "location": "Our Location",
+    "apply-now": "Đăng kí ngay",
+    "menu": {
+      "home": "Trang chủ",
+      "services": "Dịch vụ",
+      "about": "Về chúng tôi",
+      "blogs": "Bài viết",
+      "contact": "Liên hệ"
+    },
+    "contact": "Liên hệ với chúng tôi",
+    "language": "Ngôn ngữ"
+  },
+  "home": {
+    "top-info": {
+      "online-visa": "Visa trực tuyển",
+      "visa-info": "Thông tin Visa",
+      "Immigration-Resources": "Tài nguyên nhập cư",
+      "Online-Passport": "Đơn xin hộ chiếu trực tuyến"
+    },
+    "service": {
+      "feature-service": "DỊCH VỤ CUNG CẤP",
+      "title-home": "Chúng tôi cung cấp dịch vụ Visa & nhập cư \n Từ các luật sư giàu kinh nghiệm",
+      "service1": {
+        "title": "E-visa",
+        "content": "Thị thực điện tử (E-visa) là một trong những loại thị thực được Cục quản lý xuất nhập cảnh Việt Nam cấp cho người nước ngoài qua hệ thống điện tử. Visa điện tử Việt Nam có giá trị tối đa 90 ngày, nhập cảnh một lần hoặc nhiều lần."
+      },
+      "service2": {
+        "title": "VISA việt nam",
+        "content": "Thị thực Việt Nam là một loại giấy tờ được cấp bởi Cục quản lý xuất nhập cảnh Việt Nam, cho phép đi du lịch, công tác, làm việc, thăm thân, đầu tư, v.v.. và nhập cảnh vào Việt Nam."
+      },
+      "service3": {
+        "title": "Thẻ tạm thúc (trc)",
+        "content": "Thẻ tạm trú là loại giấy tờ do Cục quản lý xuất nhập cảnh cấp cho người nước ngoài được phép cư trú tại Việt Nam có thời hạn (2 - 5 năm) và có giá trị thay cho visa. "
+      },
+      "service4": {
+        "title": "Giấy phép lao động tại việt nam",
+        "content": "Giấy phép lao động Việt Nam do Sở Lao động, Thương binh và Xã hội cấp tỉnh hoặc Sở Việc làm cấp, cho phép lao động nước ngoài làm việc hợp pháp tại Việt Nam. Giấy phép lao động Việt Nam có thời hạn tối đa là 2 năm. "
+      },
+      
+      "service5": {
+        "title": "Hợp pháp hóa giấy tờ",
+        "content": "Là cụm từ mang ý nghĩa về việc làm cho tài liệu cấp tại Việt Nam có giá trị về pháp lý để sử dụng tại nước ngoài <strong>(Ví dụ Giấy khai sinh Việt Nam sử dụng tại UAE)</strong> và làm cho tài liệu nước ngoài có giá trị hợp pháp để sử dụng tại Việt Nam <strong> (Ví dụ Giấy đăng ký kinh doanh của UK sử dụng tại Việt Nam)</strong>. Quá trình này thường bao gồm các bước khác nhau tại các cơ quan nhà nước, cơ quan ngoại giao, lãnh sự, sứ quán. "
+      },
+      "service6": {
+        "title": "Chứng nhận lãnh sự",
+        "content": "Tương đương với việc hợp pháp hóa tài liệu bằng cách làm cho tài liệu cấp tại 1 nước và có giá trị hợp pháp để sử dụng tại một nước khác. <strong>(Ví dụ chứng nhận Bằng Thạc sỹ của Áo để sử dụng tại Đài Loan)</strong>."
+      },
+      "service7": {
+        "title": "APOSTILLE",
+        "content": "Là cụm từ chỉ sử dụng cho các nước thuộc thành viên công ước Hague về việc được miễn hợp pháp hóa sứ quán tại nước tài liệu sẽ được sử dụng tuy nhiên vẫn cần chứng nhận qua cơ quan ngoại giao trước khi tài liệu được mang đi sử dụng. <strong> (Ví dụ APOSTILLE Bằng, Bảng điểm Đại học của Pháp sử dụng để du học tại Hàn Quốc)</strong>."
+      },
+      "service8": {
+        "title": "VISA đi các nước",
+        "content": "Điểm nhấn là chúng tôi có kinh nghiệm thực hiện dịch vụ và tư vấn cho những nước không đặt sứ quán tại Việt Nam như Nicaragua, Guatemala, Tunisia, Montenegro, Serbia , El Salvador , Cộng hòa dân chủ Công gô. \n Và các nước khó xin visa như Mỹ, Mexico, Cộng Hòa Domonica, Dominica ……Visa thăm thân, công tác nước ngoài là một thông lệ ngày nay. Việc yêu cầu về thị thực, hộ chiếu và các điều kiện tiên quyết khác cần có trong mọi lĩnh vực kinh doanh. Ngày nay, mọi người đi du lịch khắp thế giới để trao đổi công việc, tham quan, học tập cao hơn hoặc bất kỳ mục đích nào khác. "
+      }
+    },
+    "why-us": {
+      "title": "TẠI SAO CHỌN CHÚNG TÔI?",
+      "experienced-consultant": "Tư vấn giàu kinh nghiệm ",
+      "high-quality": "Đảm bảo chất lượng cao",
+      "cost": "Chí phí cạnh tranh",
+      "take-reputation": "Lấy uy tín làm đầu"
+    },
+    "about": {
+      "title": "Hơn 5 năm được bạn tin tưởng và giới thiệu",
+      "sub-title": "Hơn 5 năm được bạn tin tưởng và giới thiệu",
+      "sumary": "Công ty TNHH Tư vấn Việt Nam Consulting (VNC) được thành lập bởi một nhóm các tư vấn viên chuyên nghiệp với 5 đến 10 năm kinh nghiệm và được biết đến như một điểm đến đáng tin cậy về các mảng Visa, Giấy phép lao động, Thị thực thăm thân/công tác và Hợp pháp hóa lãnh sự, Chứng nhận lãnh sự, Apostille."
+    },
+    "statistic": {
+      "statistic1": "Khách hàng hạnh phúc",
+      "statistic2": "Thị thực & Nhập cư",
+      "statistic3": "Liên kết các quốc gia",
+      "statistic4": "Liên kết các trường đại học"
+
+    },
+    "blog": {
+      "reccent-blog": "Bài viết mới nhất",
+      "title": "Bài viết mới nhất về VISA và các thông tin liên quan",
+      "summary": "Chúng tôi đã giúp sinh viên doanh nhân khách du lịch khách hàng có nhu cầu y tế để có được thị thực toàn cầu. Ngoài ra chúng tôi còn giúp đỡ các gia đình khác và cung cấp dịch vụ tư vấn về nhập cư."
+    },
+    "promo": "Hãy để những kinh nghiệm của chúng tôi dẫn đường cho bạn"
+  },
+  "footer": {
+    "sumary": "Dịch vụ tư vấn của chúng tôi đặt lợi ích của khách hàng lên hàng đầu bằng cách đảm bảo tính chính xác, trung thực, hiệu quả được xây dựng dựa trên uy tín của chúng tôi với chi phí hợp lý."
+  },
+  "about-page": {
+    "title": "VỀ CHÚNG TÔI",
+    "content": "Công ty TNHH Tư vấn Việt Nam Consulting (VNC) được thành lập bởi một nhóm các tư vấn viên chuyên nghiệp với 5 đến 10 năm kinh nghiệm và được biết đến như một điểm đến đáng tin cậy về các mảng Visa, Giấy phép lao động, Thị thực thăm thân/công tác và Hợp pháp hóa lãnh sự, Chứng nhận lãnh sự, Apostille. \n Dịch vụ tư vấn của chúng tôi đặt lợi ích của khách hàng lên tiêu đề bằng cách đảm bảo tính chính xác, trung thực, hiệu quả được xây dựng dựa trên danh tiếng của chúng tôi với chi phí hợp lý. Với phương châm đặt khách hàng lên hàng đầu lấy uy tín làm trọng, đội ngũ nhân viên được đào tạo bài bản và giàu kinh nghiệm của chúng tôi cam kết cung cấp các dịch vụ hiệu quả nhất."
+  },
+  "contact-page": {
+    "title": "LIÊN HỆ CHÚNG TÔI",
+    "contact-detail": "Số 497 Thụy Khuê, Phường Bưởi, Quận Tây Hồ, Hà Nội, Việt Nam",
+    "address": "địa chỉ",
+    "work-permit": {
+      "title": "Giấy phép lao động, Visa, Thẻ tạm trú Việt Nam",
+      "name": "Ms. Kate Nguyễn",
+      "phone": " (+84) 0886599566",
+      "Email": "Katenguyenvnc@gmail.com"
+    },
+    "tourist-visa": {
+      "title": "Visa du lịch, thăm thân công tác",
+      "name": "Ms. Alice Nguyễn",
+      "phone": "(+84) 0862371913",
+      "Email": "Alicenguyenvnc@gmail.com"
+    },
+    "consular-legalization": {
+      "title": "Hợp pháp hóa lãnh sự/ APOSTILLE",
+      "name": "Ms. Julie Phạm",
+      "phone": "(+84) 0346846362",
+      "Email": "Juliephamvnc@gmail.com"
+    },
+    "working-hour": "Thứ 2 đến Thứ 6: 8:00 am – 5:00 pm",
+    "saturday": "8:30 am – 4.00 pm",
+    "sunday": "Đóng cửa"
+
+  }
+}

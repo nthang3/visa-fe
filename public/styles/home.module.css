@@ -1,0 +1,27 @@
+.container {
+  display: grid;
+  grid-template-rows: auto auto;
+  grid-row-gap: 22px;
+}
+
+.map {
+  width: 100%;
+  height: 589px;
+}
+
+.homeEvent {
+  width: 50%;
+  max-width: 660px;
+  margin-left: 50px;
+}
+
+.homeInfo {
+  display: flex;
+  min-height: 250px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.video-modal__header {
+  font-size: 30px;
+  text-transform: uppercase;  
+}

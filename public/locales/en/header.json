@@ -1,0 +1,15 @@
+{
+    "opening": "Opening Time: 8:30 AM - 9:30 PM",
+    "location": "Our Location",
+    "apply-now": "Contact me",
+    "menu": {
+        "home": "Home",
+        "services": "Services",
+        "about": "about",
+        "blogs": "Blogs",
+        "contact": "Contact"
+    },
+    "contact": "Contact Us",
+    "language": "Language"
+}
+
