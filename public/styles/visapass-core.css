@@ -9416,7 +9416,7 @@ ul.visapass-course-benefits-items.visapass-custom-list-style li {
 
 .contact__gpinfo {
   position: relative;
-  padding: 70px 40px 20px 40px;
+  padding: 47px 20px 20px 20px;
   -webkit-transition: all 0.3s ease-out 0s;
   -moz-transition: all 0.3s ease-out 0s;
   -ms-transition: all 0.3s ease-out 0s;
@@ -9459,7 +9459,7 @@ ul.visapass-course-benefits-items.visapass-custom-list-style li {
 .contact__gpinfo-content ul li span {
   font-size: 16px;
   color: #1a1c20;
-  width: 98px;
+  width: 88px;
   display: inline-block;
   -webkit-transition: all 0.3s ease-out 0s;
   -moz-transition: all 0.3s ease-out 0s;
@@ -9479,6 +9479,7 @@ ul.visapass-course-benefits-items.visapass-custom-list-style li {
   -ms-transition: all 0.3s ease-out 0s;
   -o-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
+  width: 203px;
 }
 @media (max-width: 767px), only screen and (min-width: 576px) and (max-width: 767px) {
   .contact__gpinfo-content ul li p {

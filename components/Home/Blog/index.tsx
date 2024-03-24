@@ -3,6 +3,16 @@ import Image from "next/image";
 
 export default function Blog() {
   const { i18n, t } = useTranslation("common");
+  const blogs  = [
+    {id: 1, updateDate: "march 11, 2024", title: "Designing Better Links For Websites And Emails", summary: "Nancy boy Charles down the pub get stuffed mate easy peasy…"},
+    {id: 2, updateDate: "march 11, 2024", title: "A Guide To Attracting Clients To Your Agency", summary: "Nancy boy Charles down the pub get stuffed mate easy peasy…"},
+    {id: 3, updateDate: "march 11, 2024", title: "Web Development To Update React Hooks Cons", summary: "Nancy boy Charles down the pub get stuffed mate easy peasy…"},
+    {id: 4, updateDate: "march 11, 2024", title: "A Guide To Attracting Clients To Your Agency", summary: "Nancy boy Charles down the pub get stuffed mate easy peasy…"},
+    {id: 5, updateDate: "march 11, 2024", title: "Web Development To Update React Hooks Cons", summary: "Nancy boy Charles down the pub get stuffed mate easy peasy…"},
+    {id: 6, updateDate: "march 11, 2024", title: "Designing Better Links For Websites And Emails", summary: "Nancy boy Charles down the pub get stuffed mate easy peasy…"},
+    {id: 7, updateDate: "march 11, 2024", title: "Web Development To Update React Hooks Cons", summary: "Nancy boy Charles down the pub get stuffed mate easy peasy…"},
+    {id: 8, updateDate: "march 11, 2024", title: "Web Development To Update React Hooks Cons", summary: "Nancy boy Charles down the pub get stuffed mate easy peasy…"},
+  ]
   return (
     <section className="home-section section-blog">
       <section
@@ -79,7 +89,7 @@ export default function Blog() {
                         <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
                           <article className="blog mb-30">
                             <div className="blog__thumb">
-                              <a href="https://codeskdhaka.com/wp/visapass/designing-better-links-for-websites-and-emails-a-guideline/">
+                              <a href="/visapass/designing-better-links-for-websites-and-emails-a-guideline/">
                                 <img
                                   decoding="async"
                                   src="/images/blog-1-2.jpg"
@@ -91,8 +101,8 @@ export default function Blog() {
                               <div className="blog-meta bdevs-el-meta">
                                 <span>
                                   <i className="far fa-user" />{" "}
-                                  <a href="https://codeskdhaka.com/wp/visapass/author/visapass/">
-                                    Visapass
+                                  <a href="/visapass/author/visapass/">
+                                    VNC
                                   </a>
                                 </span>
                                 <span>
@@ -105,7 +115,7 @@ export default function Blog() {
                               </div>
                               <div className="blog-text">
                                 <h3 className=" blog__content__title bdevs-el-title">
-                                  <a href="https://codeskdhaka.com/wp/visapass/designing-better-links-for-websites-and-emails-a-guideline/">
+                                  <a href="/visapass/designing-better-links-for-websites-and-emails-a-guideline/">
                                     Designing Better Links For Websites And
                                     Emails
                                   </a>
@@ -117,7 +127,7 @@ export default function Blog() {
                                 <div className="read-more">
                                   <a
                                     className="bdevs-el-btn"
-                                    href="https://codeskdhaka.com/wp/visapass/designing-better-links-for-websites-and-emails-a-guideline/"
+                                    href="/visapass/designing-better-links-for-websites-and-emails-a-guideline/"
                                   >
                                     Read More{" "}
                                     <i className="fal fa-long-arrow-right" />
@@ -130,7 +140,7 @@ export default function Blog() {
                         <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
                           <article className="blog mb-30">
                             <div className="blog__thumb">
-                              <a href="https://codeskdhaka.com/wp/visapass/a-guide-to-attracting-clients-to-your-agency/">
+                              <a href="/visapass/a-guide-to-attracting-clients-to-your-agency/">
                                 <img
                                   decoding="async"
                                   src="/images/blog-1-2-3.jpg"
@@ -142,8 +152,8 @@ export default function Blog() {
                               <div className="blog-meta bdevs-el-meta">
                                 <span>
                                   <i className="far fa-user" />{" "}
-                                  <a href="https://codeskdhaka.com/wp/visapass/author/visapass/">
-                                    Visapass
+                                  <a href="/visapass/author/visapass/">
+                                    VNC
                                   </a>
                                 </span>
                                 <span>
@@ -156,7 +166,7 @@ export default function Blog() {
                               </div>
                               <div className="blog-text">
                                 <h3 className=" blog__content__title bdevs-el-title">
-                                  <a href="https://codeskdhaka.com/wp/visapass/a-guide-to-attracting-clients-to-your-agency/">
+                                  <a href="/visapass/a-guide-to-attracting-clients-to-your-agency/">
                                     A Guide To Attracting Clients To Your Agency
                                   </a>
                                 </h3>
@@ -167,7 +177,7 @@ export default function Blog() {
                                 <div className="read-more">
                                   <a
                                     className="bdevs-el-btn"
-                                    href="https://codeskdhaka.com/wp/visapass/a-guide-to-attracting-clients-to-your-agency/"
+                                    href="/visapass/a-guide-to-attracting-clients-to-your-agency/"
                                   >
                                     Read More{" "}
                                     <i className="fal fa-long-arrow-right" />
@@ -180,7 +190,7 @@ export default function Blog() {
                         <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
                           <article className="blog mb-30">
                             <div className="blog__thumb">
-                              <a href="https://codeskdhaka.com/wp/visapass/web-development-to-update-react-hooks-cons/">
+                              <a href="/visapass/web-development-to-update-react-hooks-cons/">
                                 <img
                                   decoding="async"
                                   src="/images/Untitled-1.jpg"
@@ -192,8 +202,8 @@ export default function Blog() {
                               <div className="blog-meta bdevs-el-meta">
                                 <span>
                                   <i className="far fa-user" />{" "}
-                                  <a href="https://codeskdhaka.com/wp/visapass/author/visapass/">
-                                    Visapass
+                                  <a href="/visapass/author/visapass/">
+                                    VNC
                                   </a>
                                 </span>
                                 <span>
@@ -206,7 +216,7 @@ export default function Blog() {
                               </div>
                               <div className="blog-text">
                                 <h3 className=" blog__content__title bdevs-el-title">
-                                  <a href="https://codeskdhaka.com/wp/visapass/web-development-to-update-react-hooks-cons/">
+                                  <a href="/visapass/web-development-to-update-react-hooks-cons/">
                                     Web Development To Update React Hooks Cons
                                   </a>
                                 </h3>
@@ -217,7 +227,7 @@ export default function Blog() {
                                 <div className="read-more">
                                   <a
                                     className="bdevs-el-btn"
-                                    href="https://codeskdhaka.com/wp/visapass/web-development-to-update-react-hooks-cons/"
+                                    href="/visapass/web-development-to-update-react-hooks-cons/"
                                   >
                                     Read More{" "}
                                     <i className="fal fa-long-arrow-right" />

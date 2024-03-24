@@ -1,5 +1,6 @@
 "use client";
 import { useTranslation } from "next-i18next";
+import Link from "next/link";
 import { useRouter } from "next/router";
 import { useEffect } from "react";
 export default function Header() {
@@ -44,12 +45,12 @@ export default function Header() {
                   <ul>
                     <li>
                       <i className="flaticon-pin" />
-                      <a
+                      <Link
                         target="_blank"
-                        href="https://www.google.com/maps/place/United+States/@37.2755536,-104.6574636,5z/data=!3m1!4b1!4m5!3m4!1s0x54eab584e432360b:0x1c3bb99243deb742!8m2!3d37.09024!4d-95.712891"
+                        href={'/contact'}
                       >
                         {t("header.location")}
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </div>
@@ -80,9 +81,9 @@ export default function Header() {
                       id="menu-item-1879"
                       className="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-219 current_page_item current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children dropdown active menu-item-1879 nav-items"
                     >
-                      <a title="Home" href="#" className="nav-link">
+                      <Link title="Home" href="/" className="nav-link">
                         {t("header.menu.home")}
-                      </a>
+                      </Link>
                       {/* <FontAwesomeIcon icon={faAngleDown} /> */}
                       {/* <ul className="sub-menu" role="menu">
                         <li
@@ -159,9 +160,9 @@ export default function Header() {
                       id="menu-item-1883"
                       className="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown menu-item-1883 nav-items menu-last"
                     >
-                      <a title="Services" href="#" className="nav-link">
+                      <Link title="Services" href="/services" className="nav-link">
                         {t("header.menu.services")}
-                      </a>
+                      </Link>
                       {/* <FontAwesomeIcon icon={faAngleDown} /> */}
                     </li>
                     <li
@@ -169,18 +170,18 @@ export default function Header() {
                       id="menu-item-1883"
                       className="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown menu-item-1883 nav-items menu-last"
                     >
-                      <a title="Services" href="#" className="nav-link">
+                      <Link title="Services" href="/about" className="nav-link">
                         {t("header.menu.about")}
-                      </a>
+                      </Link>
                     </li>
                     <li
                       itemType="https://www.schema.org/SiteNavigationElement"
                       id="menu-item-96"
                       className="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-96 nav-items menu-last"
                     >
-                      <a title="Pages" href="#" className="nav-link">
+                      <Link title="Pages" href="/blogs" className="nav-link">
                         {t("header.menu.blogs")}
-                      </a>
+                      </Link>
                     </li>
 
                     <li
@@ -188,9 +189,9 @@ export default function Header() {
                       id="menu-item-1889"
                       className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1889 nav-items menu-last"
                     >
-                      <a title="Contact" href="#" className="nav-link">
+                      <Link title="Contact" href="/contact" className="nav-link">
                         {t("header.menu.contact")}
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </nav>

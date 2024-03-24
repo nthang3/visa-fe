@@ -777,7 +777,7 @@ text-transform: capitalize;
  .widget ul li a:hover {
   color: #E48216;
 }
- .widget ul li  a::before {
+ /* .widget ul li  a::before {
   position: absolute;
   content: "";
   left: 0;
@@ -791,7 +791,7 @@ text-transform: capitalize;
   -ms-transition: all 0.3s ease-out 0s;
   -o-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
-}
+} */
 
  .widget ul li  a:hover::before {
 	left: 7px;

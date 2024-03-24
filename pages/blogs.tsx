@@ -6,6 +6,7 @@ import type {
 
 import { useTranslation } from 'next-i18next'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
+import Blog from 'components/Blog'
 
 
 type Props = {
@@ -19,12 +20,7 @@ const SecondPage = (
 
   return (
     <>
-      <main>
-        <Link href="/">
-          <button type="button">
-          </button>
-        </Link>
-      </main>
+      <Blog/>
     </>
   )
 }
@@ -33,7 +29,7 @@ export const getServerSideProps: GetServerSideProps<Props> = async ({
   locale,
 }) => ({
   props: {
-    ...(await serverSideTranslations(locale ?? 'en', [
+    ...(await serverSideTranslations(locale ?? 'vi', [
       'common',
       'footer',
     ])),

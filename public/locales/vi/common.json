@@ -7,6 +7,7 @@
   "title": "Hauptseite | next-i18next",
   "read-more": "Xem thêm",
   "contact-me": "Liên hệ chúng tôi",
+  "category": "Danh mục dịch vụ",
   "blog": {
     "appDir": {
       "question": "Verwendest du das neue Next.js 13/14 mit app directory?",
@@ -118,7 +119,10 @@
   "contact-page": {
     "title": "LIÊN HỆ CHÚNG TÔI",
     "contact-detail": "Số 497 Thụy Khuê, Phường Bưởi, Quận Tây Hồ, Hà Nội, Việt Nam",
-    "address": "địa chỉ",
+    "address": "Địa chỉ",
+    "phone": "Điện thoại",
+    "mail": "Email",
+    "name": "Tên",
     "work-permit": {
       "title": "Giấy phép lao động, Visa, Thẻ tạm trú Việt Nam",
       "name": "Ms. Kate Nguyễn",

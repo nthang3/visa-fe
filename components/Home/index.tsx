@@ -4,8 +4,6 @@ import Service from "./Service";
 import Slider from "./Slider";
 import WhyChooseUs from "./WhyChooseUs";
 import { useTranslation } from "react-i18next";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 export default function HomePage() {
   const { i18n, t } = useTranslation("common");
   return (
