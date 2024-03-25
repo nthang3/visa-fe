@@ -8,7 +8,6 @@ const { esmExternals = false, tsconfigPath } =
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: "export",
   experimental: {
     esmExternals, // https://nextjs.org/blog/next-11-1#es-modules-support
   },
